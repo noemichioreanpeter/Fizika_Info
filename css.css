@@ -1,0 +1,80 @@
+
+.Container{
+
+    background: rgb(192, 129, 129);
+    border-style: solid;
+    display: flex;
+   margin:50px;
+   border-radius: 20px;
+   border-color: rgb(168, 115, 115);
+}
+
+.bal{
+
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    padding: 20px;
+}
+.bal ul{
+
+    list-style-type: none;
+}
+
+.felso{
+    border-style: solid;
+    margin: 30px;
+    margin-right: 100px;
+    padding: 20px;
+}
+
+.leiras{
+    
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.feladat{
+
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    margin:30px;
+    margin-right: 100px;
+   padding: 20px;
+   display: block;
+    align-items: center;
+}
+
+
+
+.adatok{
+
+    display: block;
+    padding-left: 350px;
+  
+}
+
+.kozep{
+
+     padding-left: 160px;
+}
+
+
+body{ 
+    background-image:url('https://th.bing.com/th/id/R.a94b79d3e837563e7c44643adf5836bc?rik=SYDRS5sFLhvbpQ&pid=ImgRaw&r=0'); background-position: center; background-size: cover; } 
+
+    .magyarazat{
+
+        border-style: solid;
+        margin: 30px;
+       padding: 20px;
+       margin-right: 100px;
+    }
+
+    .hidden {
+        display: none;
+    }

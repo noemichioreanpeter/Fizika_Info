@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feladat</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+
+    <div class="Container">
+      
+      <div class="kozep">
+       <div class="felso">
+        <p>Egy tavon X kg tömegű csónak Y m/s sebességgel halad.
+          Mekkora sebességgel ugrott ki a Z kg tömegű ember(a csónak haladásával megegyező irányba), ha emiatt a csónak éppen megállt? </p>
+       </div>
+       <div class="leiras">
+        <h1>Írj be tetszőleges értékeket!</h1>
+       </div>
+  
+       <div class="feladat">
+        <div class="adatok">
+         <form id="inputForm">
+            <label for="massBoat">Csónak tömege (kg):</label>
+            <input type="number" id="massBoat" name="massBoat" required><br><br>
+            <label for="velocityBoat">Csónak sebessége (m/s):</label>
+            <input type="number" id="velocityBoat" name="velocityBoat" required><br><br>
+            <label for="massPerson">Ember tömege (kg):</label>
+            <input type="number" id="massPerson" name="massPerson" required><br><br>
+            <button type="button" onclick="calculateJumpVelocity()">Számítás</button>
+         </form>
+           <h2 id="result">
+           </h2>
+       </div>
+       </div>
+       <div class="magyarazat hidden" id="magyarazat"><h2>Magyarázat</h2>
+        <p>Ehhez a feladathoz a lendület(impulzus) megmaradás törvényét kell alkalmazni. </p>
+        <p>Az ember tömegét jelőljük M-vel, a csónak tömegét m-vel. Kezdetben a csónak az emberrel együtt v sebességgel halad. A feladat a kiugró ember 
+          sebességének meghatározását kéri, feltételezve, hogy az ugrás következtében a csónak megáll.
+        </p>
+       A lendület megmaradásának értelmében, a kiugrás előtt, a teljes rendszer((M+m)*v) impulzusa egyenlő a kiugrás után az ember(M*v) és a csónak(m*0) impulzusának összegével.
+          Mivel a csónak megáll, ennek sebessége 0.</p>
+        
+          <p >A képlet tehát: <p style="color:red;"> (M+m)*v = M*0 + m*v1</p></p>
+        
+       </div>
+      </div>
+    </div>
+  
+</body>
+</html>
